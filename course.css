@@ -204,7 +204,7 @@ bottom: 445px;
 .mobile-app-txt {
   font-family: "Pattaya", sans-serif;
   background-color: #F9C265;
-  border: 1px solid black;
+  border: 3px solid black;
   border-radius: 55px;
   padding-left: 10px;
   padding-right: 10px;
@@ -218,19 +218,6 @@ bottom: 445px;
   height: 71px;
   left: 571px;
   top: 225px;
-}
-
-.footer-div {
-  position: relative;
-  background-color: #1d1d1d;
-  color: #ffffff;
-  border-radius: 35px 35px 0 0;
-  padding: 0px 0px 30px 40px;
-  width: 1230px;
-  height: 353px;
-  left: 153px;
-  top: 358px;
-  text-align: center;
 }
 
 .center-div {
@@ -250,7 +237,7 @@ bottom: 445px;
     width: 380.68px;
     height: 318.29px;
     left: 50.08px;
-    bottom: 823px;
+    top: 55px;
     z-index: 2;
     margin-bottom: 0;
 }
@@ -263,7 +250,7 @@ bottom: 445px;
     width: 445px;
     height: 72px;
     left: 510px;
-    bottom: 753px;
+    top: 75px;
     line-height: 150%;
     letter-spacing: 3%;
     text-align: center;
@@ -273,6 +260,7 @@ bottom: 445px;
 
 .ready-txt {
     font-family: "Pattaya", sans-serif;
+    font-weight: 400;
 }
 
 .good-dinner-txt {
@@ -282,8 +270,8 @@ bottom: 445px;
     font-weight: 500;
     width: 474px;
     height: 64px;
-    left: 480px;
-    bottom: 770px;
+    left: 525px;
+    top: 60px;
     line-height: 150%;
     letter-spacing: 3%;
     z-index: 3;
@@ -298,7 +286,7 @@ bottom: 445px;
     width: 190px;
     height: 55px;
     left: 526px;
-    bottom: 770px;
+    top: 75px;
     line-height: 150%;
     letter-spacing: 3%;
     text-align: center;
@@ -313,8 +301,8 @@ bottom: 445px;
     position: relative;
     width: 60.97px;
     height: 58.74px;
-    left: -654px;
-    bottom: 822.58px;
+    left: -29px;
+    bottom: -18px;
     z-index: 4;
 }
 
@@ -329,7 +317,221 @@ bottom: 445px;
     position: relative;
     width: 145.35px;
     height: 232px;
-    bottom: 730px;
-    left: 2990px;
+    bottom: 405px;
+    left: 1220px;
     rotate: 180deg;
+}
+
+.footer-div {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  border-radius: 35px 35px 0 0;
+  padding: 0px 0px 30px 40px;
+  width: 1230px;
+  height: 353px;
+  left: 153px;
+  top: 358px;
+  text-align: center;
+}
+
+.monac-footer-img {
+  position: relative;
+  width: 181.92px;
+  height: 60px;
+  left: -515px;
+  top: 35px;
+}
+
+.speed-up-txt {
+  position: relative;
+  color:#ddddddd7;
+  width: 474px;
+  height: 96px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  top: 50px;
+  text-align: justify;
+}
+
+.all-rights-reserved {
+  position: relative;
+  color:#ddddddd7;
+  width: 383px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  top: 85px;
+  text-align: justify;
+}
+
+.company-txt {
+  position: relative;
+  width: 109px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  left: 540px;
+  bottom: 205px;
+}
+
+.about-us-footer {
+  position: relative;
+  color:#ddddddd7;
+  width: 100px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  left: 540px;
+  bottom: 175px;
+}
+
+.careers-txt {
+  position: relative;
+  color:#ddddddd7;
+  width: 100px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  left: 530px;
+  bottom: 175px;
+}
+
+.press-kit-txt {
+  position: relative;
+  color:#ddddddd7;
+  width: 100px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  left: 534px;
+  bottom: 175px;
+}
+
+.resources-txt {
+  position: relative;
+  width: 109px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  left: 720px;
+  bottom: 413px;
+}
+
+.blog-txt {
+  position: relative;
+  color:#ddddddd7;
+  width: 100px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  left: 695px;
+  bottom: 383px;
+}
+
+.help-center-txt {
+  position: relative;
+  color:#ddddddd7;
+  width: 150px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  left: 708px;
+  bottom: 383px;
+}
+
+.ux-research-txt {
+  position: relative;
+  color:#ddddddd7;
+  width: 225px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  left: 708px;
+  bottom: 383px;
+}
+
+.product-footer {
+  position: relative;
+  width: 109px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  left: 960px;
+  bottom: 620px;
+}
+
+.about-us-footer2 {
+  position: relative;
+  color:#ddddddd7;
+  width: 100px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  left: 968px;
+  bottom: 590px;
+}
+
+.careers-txt2 {
+  position: relative;
+  color:#ddddddd7;
+  width: 100px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  left: 961px;
+  bottom: 590px;
+}
+
+.press-kit-txt2 {
+  position: relative;
+  color:#ddddddd7;
+  width: 100px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  left: 966px;
+  bottom: 590px;
+}
+
+.terms-txt {
+  position: relative;
+  color:#ddddddd7;
+  width: 270px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  left: 792px;
+  bottom: 590px;
 }
