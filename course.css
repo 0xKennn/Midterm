@@ -17,6 +17,8 @@
   margin: 0 auto;
   align-items: center;
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px   ;
 }
 
 .header a:nth-child(1) {
@@ -39,19 +41,27 @@
 
 .header a:nth-child(4) {
   position: relative;
-  left: 1111px;
+  left: 1045px;
   cursor: pointer;
 }
 
 .signup-bttn {
   position: relative;
-  left: 1118px;
+  left: 1058px;
   color: white;
   background-color: black;
   border: none;
   border-radius: 50px;
-  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-weight: 400;
+  font-size: 20px;
   cursor: pointer;
+ 
 }
 
 .monac-img {
@@ -72,7 +82,7 @@
 
 .easy-txt-div {
   position: relative;
-  width: 606px;
+  width: 622px;
   height: 214px;
   top: 50px;
   left: 125px;
@@ -81,6 +91,7 @@
   line-height: 150%;
   letter-spacing: 3%;
   vertical-align: middle;
+  padding-left: 5px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -107,6 +118,7 @@
   top: 70px;
   line-height: 150%;
   letter-spacing: 3%;
+  color: rgb(85, 85, 85);
 }
 
 .CA-div {
@@ -233,11 +245,91 @@ bottom: 445px;
   transform: translateX(-50%);
 }
 
+.student-img {
+    position: absolute;
+    width: 380.68px;
+    height: 318.29px;
+    left: 50.08px;
+    bottom: 823px;
+    z-index: 2;
+    margin-bottom: 0;
+}
 
+.get-ready-txt {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    width: 445px;
+    height: 72px;
+    left: 510px;
+    bottom: 753px;
+    line-height: 150%;
+    letter-spacing: 3%;
+    text-align: center;
+    z-index: 3;
+    color: black;
+}
 
+.ready-txt {
+    font-family: "Pattaya", sans-serif;
+}
 
+.good-dinner-txt {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    width: 474px;
+    height: 64px;
+    left: 480px;
+    bottom: 770px;
+    line-height: 150%;
+    letter-spacing: 3%;
+    z-index: 3;
+    color: rgb(44, 44, 44);
+}
 
+.view-course-txt {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    width: 190px;
+    height: 55px;
+    left: 526px;
+    bottom: 770px;
+    line-height: 150%;
+    letter-spacing: 3%;
+    text-align: center;
+    border-radius: 25px;
+    z-index: 3;
+    padding-top: 13px;
+    background-color: #000000;
+    color: #F9C265;
+}
 
+.kulot-img {
+    position: relative;
+    width: 60.97px;
+    height: 58.74px;
+    left: -654px;
+    bottom: 822.58px;
+    z-index: 4;
+}
 
+.cloud-img {
+    position: relative;
+    width: 145.35px;
+    height: 232px;
+    bottom: 290px;
+}
 
-
+.cloud-img2 {
+    position: relative;
+    width: 145.35px;
+    height: 232px;
+    bottom: 730px;
+    left: 2990px;
+    rotate: 180deg;
+}
