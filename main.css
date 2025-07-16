@@ -944,7 +944,7 @@ padding: 5px;
   background-color: #FDF6E4;
   height: 959px;
   width: 1512px;
-  margin: 0 auto;
+  bottom: 520px;
 }
 
 .try-learning-txt {
@@ -1002,7 +1002,60 @@ padding: 5px;
     margin-bottom: 0;
 }
 
+.get-ready-txt {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  width: 445px;
+  height: 72px;
+  left: 510px;
+  top: 75px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  text-align: center;
+  z-index: 3;
+  color: black;
+}
 
+.ready-txt {
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+}
+
+.good-dinner-txt {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  width: 474px;
+  height: 64px;
+  left: 525px;
+  top: 60px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  z-index: 3;
+  color: rgb(44, 44, 44);
+}
+
+.view-course-txt {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  width: 190px;
+  height: 55px;
+  left: 526px;
+  top: 75px;
+  line-height: 150%;
+  letter-spacing: 3%;
+  text-align: center;
+  border-radius: 25px;
+  z-index: 3;
+  padding-top: 13px;
+  background-color: #000000;
+  color: #F9C265;
+}
 
 .kulot-img {
     position: relative;
@@ -1060,6 +1113,7 @@ padding: 5px;
   font-size: 21px;
   line-height: 150%;
   letter-spacing: 3%;
+  left: 0px;
   top: 50px;
   text-align: justify;
 }
