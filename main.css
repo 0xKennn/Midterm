@@ -43,7 +43,7 @@
   cursor: pointer;
 }
 
-.header a:nth-child(4) {
+.header a:nth-child(5) {
   position: relative;
   left: 1045px;
   cursor: pointer;
@@ -647,6 +647,15 @@ color: #F9C265;
   width: 1512px;
   height: 1070px;
   margin: 0 auto;
+}
+
+.tri-line3-img {
+  position: relative;
+  width: 67.38px;
+  height: 82.66px;
+  left: 1177.2px;
+  top: 20px;
+  z-index: 2;
 }
 
 .pop-courses-txt {

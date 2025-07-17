@@ -39,7 +39,7 @@
   cursor: pointer;
 }
 
-.header a:nth-child(4) {
+.header a:nth-child(5) {
   position: relative;
   left: 1045px;
   cursor: pointer;
@@ -231,6 +231,16 @@ bottom: 445px;
   left: 50%;
   transform: translateX(-50%);
 }
+
+/*.triline-img {
+  position: relative;
+  width: 67.38px;
+  height: 82.66px;
+  left: 1147.2px;
+  bottom: 290px;
+  z-index: 4;
+  background-color: rgb(255, 0, 13);
+} */
 
 .student-img {
     position: absolute;
