@@ -45,13 +45,13 @@
 
 .header a:nth-child(5) {
   position: relative;
-  left: 1045px;
+  left: 825px;
   cursor: pointer;
 }
 
 .signup-bttn {
   position: relative;
-  left: 1058px;
+  left: 838px;
   color: white;
   background-color: black;
   border: none;
@@ -69,11 +69,10 @@
 }
 
 .monac-img {
-  position: absolute;
-  top: 13px; 
-  left: 50%;
-  transform: translateX(-50%);
-  height: 90px;
+  position: relative;
+  width: 190px;
+  height: 90px; 
+  left: 483px;
   z-index: 1;
 }
 
