@@ -232,15 +232,14 @@ bottom: 445px;
   transform: translateX(-50%);
 }
 
-/*.triline-img {
+.triline-img {
   position: relative;
   width: 67.38px;
   height: 82.66px;
   left: 1147.2px;
   bottom: 290px;
   z-index: 4;
-  background-color: rgb(255, 0, 13);
-} */
+} 
 
 .student-img {
     position: absolute;
