@@ -18,7 +18,7 @@
   align-items: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 20px   ;
 }
 
 .header a:nth-child(1) {
@@ -41,13 +41,13 @@
 
 .header a:nth-child(5) {
   position: relative;
-  left: 825px;
+  left: 1045px;
   cursor: pointer;
 }
 
 .signup-bttn {
   position: relative;
-  left: 838px;
+  left: 1058px;
   color: white;
   background-color: black;
   border: none;
@@ -65,10 +65,11 @@
 }
 
 .monac-img {
-  position: relative;
-  width: 190px;
-  height: 90px; 
-  left: 483px;
+  position: absolute;
+  top: 13px; 
+  left: 50%;
+  transform: translateX(-50%);
+  height: 90px;
   z-index: 1;
 }
 
@@ -184,7 +185,6 @@ bottom: 445px;
   height: 962px;
   width: 1512px;
   margin: 0 auto;
-  bottom: 375px;
 }
 
 .try-learning-txt {
@@ -217,18 +217,19 @@ bottom: 445px;
   width: 320.61px;
   height: 71px;
   left: 571px;
-  top: 65px;
+  top: 225px;
 }
 
 .center-div {
-  position: relative;
+  position: absolute;
   width: 1246.13px;
   height: 373px;
+  top: 835px;
   background: #F9C265;
   border-radius: 40px;
   z-index: 1;
-  margin: 0 auto;
-  bottom: 240px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .triline-img {
@@ -309,8 +310,8 @@ bottom: 445px;
     position: relative;
     width: 60.97px;
     height: 58.74px;
-    left: -30px;
-    bottom: 10px;
+    left: -29px;
+    bottom: 80px;
     z-index: 4;
 }
 
@@ -318,17 +319,16 @@ bottom: 445px;
     position: relative;
     width: 145.35px;
     height: 232px;
-    right: 325px;
-    top: 190px;
+    bottom: 290px;
 }
 
 .cloud-img2 {
     position: relative;
     width: 145.35px;
     height: 232px;
+    bottom: 405px;
+    left: 1220px;
     rotate: 180deg;
-    left: 895px;
-    top: 10px;
 }
 
 .footer-div {
@@ -341,7 +341,7 @@ bottom: 445px;
   width: 1230px;
   height: 353px;
   left: 153px;
-  top: 195px;
+  top: 358px;
   text-align: center;
 }
 
